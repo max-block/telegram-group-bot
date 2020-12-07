@@ -20,7 +20,7 @@ setuptools.setup(
     version=find_version("telegram_group_bot/__init__.py"),
     python_requires=">=3.9",
     packages=["telegram_group_bot"],
-    install_requires=["python-telegram-bot==13.1", "pydantic==1.7.3", "click==7.1.2"],
+    install_requires=["python-telegram-bot==13.1", "pydantic==1.7.3", "click==7.1.2", "toml==0.10.2"],
     extras_require={
         "dev": [
             "pytest==6.1.2",
